@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
 }
+
 html,
 body {
     height: 100%;
@@ -57,6 +58,10 @@ ul {
     flex-wrap: wrap;
 }
 
+.d-grid {
+    display: grid;
+}
+
 :root {
     --color-black: #252525;
     --color-background: #F5F5F5;
@@ -66,6 +71,8 @@ ul {
 
     --font-size-base: 20px;
   }
+
+  
 
 /************* ХЕДЕР *************/
 header {
@@ -157,6 +164,68 @@ header {
     font-size: var(--font-size-base);
     line-height: 24px;
     text-decoration: none;
+    color: var(--color-white);
+}
+
+
+
+/************* Страница всех курсов *************/
+.courses {
+    height: auto;
+}
+
+.courses__block--center {
+    grid-template-columns: 1fr;
+    align-items: center;
+    height: auto;
+}
+
+.courses__block--rows {
+    display: grid;
+    grid-gap: 100px;
+    margin: 150px 0;
+}
+
+.courses__item h2 {
+    margin-bottom: 50px;
+}
+
+.courses__item--coloumns {
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 87px;
+    height: 270px;
+}
+
+.courses__item--rows {
+    grid-template-rows: 2fr 1fr;
+    align-content: space-between;
+    height: 270px;
+}
+
+.courses__item--rows p {
+    width: 714px;
+}
+
+.courses__item--image {
+    height: 271px;
+    width: 270px;
+}
+
+.button {
+    width: 240px;
+    height: 60px;
+    background-color: var(--color-black);
+    color: var(--color-purple);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: var(--font-size-base);
+}
+
+.button:hover {
     color: var(--color-white);
 }
 

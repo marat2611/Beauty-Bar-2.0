@@ -1,4 +1,5 @@
 @media screen and (max-width: 1100px) {
+
     .container {
         margin-right: 20px;
         margin-left: 20px;
@@ -63,10 +64,110 @@
     .social-network--media {
         display: block;
     }
+
+/************* Страница всех курсов *************/
+    .courses__block--center {
+        margin-top: 150px;
+        display: block;
+    }
+
+    .courses__item--rows {
+        grid-template-rows: 2fr 1fr;
+        align-content: space-between;
+        height: 270px;
+        grid-gap: 50px;
+    }
+
+    .courses__item--rows p {
+        width: auto;
+    }
+
+
+    .courses__item--coloumns {
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 70px;
+        height: auto;
+    }
+
+
 }
+
+
+
+
 @media screen and (max-width: 640px) {
-    /* Хедер */
+/************* Хедер *************/
     .header__toggle.is-active + .mobile-menu {
         width: 100%;
     } 
+
+    .header-top__phone {
+        display: none;
+    }
+
+
+/************* Страница всех курсов *************/
+    .courses__item--coloumns {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .courses__block--center {
+        margin-top: 100px;
+    }
+
+    .courses__block--rows {
+    margin: 100px 0;
+    }
+
+
+/************* Футер *************/  
+    footer {
+        height: auto;
+    }
+
+    .footer {
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding: 35px 0;
+    }
+
+    .footer-list {
+        display: none;
+    }
+
+    .footer-contacts {
+        height: auto;
+    }
+
+    .footer__phone {
+        display: none;
+    }
+
+    .footer-logo {
+        position: static;
+    }
+
+    .footer-contacts__social-network {
+        display: flex;
+        gap: 45px;
+    }
+
+    .footer-contacts__social-network a {
+        margin: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 420px) {
+    
+/************* Хедер *************/
+    .header-bottom-logo img {
+        height: 29px;
+    }
 }
