@@ -230,6 +230,293 @@ header {
 }
 
 
+/************* Страница Курс Ламинирование *************/
+
+/* Курс Главный баннер */
+.cours__mainbanner {
+    height: 575px;
+    background-color: #252525;
+    overflow-x: hidden;
+} 
+
+.cours__mainbanner--background {
+    position: relative;
+    height: 575px;
+}
+
+.cours__mainbanner--image {
+    position: absolute;
+    left: 230px;
+    height: 575px;
+}
+
+.cours__mainbanner--img {
+    position: absolute;
+    height: 575px;
+}
+
+.cours__mainbanner--image-mob {
+    display: none;
+}
+
+.cours__mainbanner--img-mob {
+    display: none;
+}
+
+
+.cours__mainbanner--description {
+    position: absolute;
+}
+
+.cours__mainbanner--description h1 {
+    color: #FB37FF;
+}
+
+.cours__mainbanner--description span {
+    color: #FFE3B3;
+}
+
+.cours__mainbanner--description p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 100px;
+}
+
+
+
+/* Курс Преимущества */
+
+
+.benefit {
+    height: 764px;
+}
+
+.benefit__block {
+    display: grid;
+    grid-gap: 100px;
+}
+
+
+.benefit__block--center {
+    height: auto;
+    margin: 150px 0;
+}
+
+.benefit__block--item img {
+    height: 70px;
+    width: 70px;
+}
+
+.benefit__items {
+    margin: 0;
+    justify-content: space-between;
+    gap: 140px;
+}
+
+.benefit__block--item{
+    width: 50%;
+}
+
+.benefit__block--item img {
+    width: 110px;
+    height: 110px;
+}
+
+.benefit__block--item p {
+    margin-left: 37px;
+    width: auto;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+/* Курс Преподаватель */
+.teacher {
+    height: 582px;
+    background-color: #252525;
+    overflow-x: hidden;
+}
+
+.teacher__block {
+    align-items: center;
+    justify-content: space-between;
+    height: 582px;
+}
+
+.teacher__item--left h2 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.teacher__item--left h3 {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-top: 75px;
+}
+
+.teacher__item--left p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 75px;
+}
+
+/* Курс Расписание */
+.timetable {
+    height: 1111px;
+}
+
+.timetable__block--center {
+    align-items: center;
+    height: 1111px;
+    
+}
+
+.timetable__block--grid {
+    grid-template-columns: 1fr 3fr;
+    margin-top: 100px;
+    grid-gap: 50px;
+}
+
+.timetable__block--center h2 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.timetable__block--grid p {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: #990099;
+}
+
+.timetable__block--right li {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+/* Курс записаться */
+.form__background {
+    background-color: #252525;
+    height: 487px;
+    margin-top: 70px;
+    
+}
+
+.form__background p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FB37FF;
+}
+
+.form__background p span {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFE3B3;
+}
+
+.form__block {
+    align-items: center;
+    justify-content: space-between;
+    height: 487px;
+}
+
+.form__item--left {
+    height: 300px;
+    align-items: center;
+}
+
+.form__feild {
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: space-between;
+    height: 300px;
+    align-items: center;
+    
+}
+
+.form__input {
+    width: 659px;
+    height: 60px;
+    background-color: #252525;
+    border: 1px solid #FB37FF;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+
+
+.button-border--pink {
+    border: 1px solid #FB37FF;
+    box-shadow: 0 0 10px #FB37FF;
+}
+
+.button:hover {
+    background-color: #252525;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+.form__button {
+    width: 100%;
+    justify-content: space-between;
+    gap: 10%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.form__button span {
+    width: 60%;
+}
+
+::placeholder {
+    padding: 0 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    width: auto;
+}
+
+
+
+
+
 /************* ФУТЕР *************/
 .footer {
     align-items: center;

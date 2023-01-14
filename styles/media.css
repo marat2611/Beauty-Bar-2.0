@@ -90,6 +90,259 @@
     }
 
 
+
+ /************* Страница Курс Ламинирование *************/
+
+    /* Главный баннер */
+    .cours__mainbanner {
+        height: 575px;
+
+    }
+
+    .cours__mainbanner--background {
+        height: auto;
+    }
+
+    .cours__mainbanner--image {
+        height: 575px;
+        
+    }
+    
+
+    .cours__mainbanner--description h1 {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        margin-top: 25px;
+        width: 528px;
+    }
+
+
+    /* Преимущества */
+
+    .benefit {
+        height: auto;
+    }
+
+    .benefit__block {
+        display: grid;
+        grid-gap: 50px;
+    }
+
+    .benefit__block h2 {
+        margin: 0;
+        width: 60%;
+    }
+
+    .benefit__block--center {
+        height: auto;
+        margin: 150px 0;
+    }
+
+    .benefit__block--item {
+        width: 50%;
+    }
+
+    .benefit__block--item img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .benefit__items {
+        margin: 0;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    /* Преподаватель */
+    .teacher {
+        margin: 0;
+        height: auto;
+    }
+    .teacher__block {
+        height: auto;
+    }
+
+    .teacher__item--left {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .teacher__item--left h3 {
+        margin: 0;
+    }
+
+    .teacher__item--left p {
+        margin: 0;
+    }
+
+
+    /* Расписание */
+    .timetable {
+        height: auto;
+    }
+    
+    .timetable__block--center {
+        margin: 150px 0;
+        height: auto;
+    }
+
+    .timetable__block--rows {
+        grid-gap: 50px;
+    }
+
+    .timetable__block--grid {
+        margin: 0;
+    }
+
+
+    /* Записаться на курс */
+    .signup {
+        height: auto;
+    }
+    
+    /* Форма записи на курс */
+    .form__block {
+        width: auto;
+    }
+
+
+    .form__background p {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+    
+    }
+
+
+    .form__button {
+        margin-top: 0;
+        align-items: center;
+    }
+
+    .form__item--left {
+        width: 40%;
+    }
+
+    .form__item--right {
+        width: 60%;
+    }
+
+    .form__input {
+        width: auto;
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+ /************* Страница Курс Ламинирование *************/
+    /* Форма записи на курс */
+    .form__background {
+        height: auto;
+    }
+    
+    .form__background p span {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+    }
+
+    .form__item--left {
+        width: 100%;
+        display: grid;
+        grid-auto-rows: 1fr 1fr;
+        margin: 50px 0;
+        height: auto;
+    }
+
+    .form__item--right {
+        width: 100%;
+    }
+
+    .form__block {
+        display: grid;
+        height: auto;
+        
+    }
+
+    .form__feild {
+        grid-gap: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+@media screen and (max-width: 710px) {
+
+ /************* Страница Курс Ламинирование *************/
+    /* Главный баннер */
+    .cours__mainbanner--description h1 {
+        width: 100%;
+    }
+
+    
+
+    /* Преподаватель */
+    .teacher__block {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .teacher__item--left {
+        margin-top: 100px;
+    }
+
+    /* Преимущества */
+    .benefit__block h2 {
+        width: 100%;
+        
+    }
+
+    .benefit__block--center {
+        margin: 100px 0;
+    }
+
+    .benefit__items {
+        display: grid;
+        gap: 50px;
+    }
+
+    .benefit__block--item {
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .benefit__block--item img {
+        height: 60px;
+        width: 60px;
+    }
+
+    /* Форма записи */
+    .form__button {
+        align-items: flex-start;
+    }
+}
+
+
+
+@media screen and (max-width: 670px) {
+
+ /************* Страница Курс Ламинирование *************/
+    /* Главный баннер */
+    .cours__mainbanner--image {
+        left: 0;
+    }
 }
 
 
@@ -120,6 +373,34 @@
     .courses__block--rows {
     margin: 100px 0;
     }
+
+
+/************* Страница Курс Ламинирование *************/
+    /* Преподаватель */
+    .teacher__item--right {
+        width: 100%;
+    }
+
+    /* Форма записи */
+    .form__button {
+        display: grid;
+        justify-content: center;
+        height: auto;
+        grid-gap: 30px;
+    }
+
+    .form__button button {
+        margin: auto;
+    }
+
+    .form__button span {
+        width: 100%;
+    }
+
+    .form__item--right {
+        margin-bottom: 50px;
+    }
+
 
 
 /************* Футер *************/  
@@ -170,4 +451,184 @@
     .header-bottom-logo img {
         height: 29px;
     }
+
+
+/************* Страница Курс Ламинирование *************/
+    /* Главный баннер */
+    .cours__mainbanner {
+        height: max-content;
+    }
+
+    .cours__mainbanner--background {
+        height: 670px;
+    }
+
+    .cours__mainbanner--description {
+        display: grid;
+        grid-gap: 30px;
+    }
+
+    .cours__mainbanner--description h1 {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        width: 100%;
+    }
+
+    .cours__mainbanner--description p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        margin: 0;
+    }
+
+    .cours__mainbanner--image {
+        display: none;
+    }
+
+    .cours__mainbanner--img{
+        display: none;
+    }
+
+    .cours__mainbanner--image-mob {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        
+    }
+
+    .cours__mainbanner--img-mob {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        
+    }
+
+    /* Преимущества */
+    .benefit__block h2 {
+        width: 100%;
+        
+    }
+
+    .benefit__block--center {
+        margin: 100px 0;
+    }
+
+    .benefit__items {
+        display: grid;
+        gap: 50px;
+    }
+
+    .benefit__block--item {
+        width: 100%;
+        align-items: center;
+        
+    }
+
+    .benefit__block--item p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .benefit__block--item img {
+        height: 60px;
+        width: 60px;
+    }
+
+    /* Преподаватель */
+    .teacher__block {
+        flex-wrap: wrap;
+    }
+
+    .teacher__item--left {
+        margin-top: 50px;
+        gap: 20px;
+    }
+
+    .teacher__item--left h2 {
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .teacher__item--left h3 {
+        font-size: 26px;
+        line-height: 31px;
+    }
+
+    .teacher__item--left p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    /* Расписание */
+    .timetable__block--grid {
+        grid-template-columns: 1fr;
+    }
+
+    .timetable__block--right {
+        margin-left: 20px;
+    }
+
+    .timetable__block--right li {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    /* Форма записи */
+    .form__item--left {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .form__feild {
+        grid-gap: 50px;
+        grid-template-rows: 1fr;
+    }
+
+    .form__button span {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+
+    }
+
+
 }
+
+
+
+
+@media screen and (max-width: 380px) {
+   
+
+/************* Страница Курс Ламинирование *************/
+/* Форма записи */
+    .form__feild {
+        width: 100%;
+    }
+
+    .form__input {
+        width: 100%;
+    }
+
+    .form__button {
+        width: 100%;
+    }
+ 
+    .form__item--left {
+        display: block;
+    }
+}
+
+
