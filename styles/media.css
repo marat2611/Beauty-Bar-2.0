@@ -9,6 +9,10 @@
         display: none;
     }
 
+    .education-text .button-enroll {
+        display: flex;
+    }
+
     .header__toggle {
         display: block;
         position: absolute;
