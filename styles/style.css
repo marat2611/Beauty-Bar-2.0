@@ -757,6 +757,114 @@ header {
     background-color: var(--color-black);
 }
 
+.banners-content {
+    overflow: hidden;
+}
+
+.first-banner {
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+
+
+.first-banner__img {
+    transform: scale(0.8,0.8);
+    position: relative;
+    bottom: 11%;
+    left: 12%;
+}
+
+.first-banner__benefits {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: right;
+    width: 510px;
+    flex-direction: row;
+}
+
+.first-banner__benefits-top {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.first-banner__benefits--1 {
+    color: var(--color-yellow);
+}
+
+.first-banner__benefits--2 {
+    color: var(--color-purple);
+}
+
+.first-banner__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--color-white);
+    position: relative;
+    width: 350px;
+}
+
+.first-banner__text p {
+    margin-bottom: 20px;
+    font-size: var(--font-size-base);
+    margin-left: 50px;
+}
+
+span {
+    color: var(--color-purple);
+}
+
+.second-banner {
+    position: relative;
+}
+
+.second-banner__img {
+    position: absolute;
+    z-index: 1;
+}
+
+.second-banner__img img{
+    width: auto;
+    height: auto;
+}
+
+.second-banner__content {
+    z-index: 5;
+}
+
+.second-banner__content p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: var(--color-yellow);
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.second-banner__button {
+    margin-left: 90px;
+    margin-right: 10px;
+    margin-top: 330px;
+    width: auto;
+    height: 50px;
+    background-color: var(--color-purple);
+    justify-content: center;
+    align-items: center;
+}
+
+.second-banner__button a {
+    text-decoration: none;
+    font-size: 24px;
+    color: var(--color-white);
+}
+
 .services-and-prices h2 {
     margin-top: 150px;
     margin-bottom: 82px;
