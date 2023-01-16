@@ -10,7 +10,7 @@
     //echo $userName;
     //echo "<br>";
     //echo $tel;
-    if (mail("admin@beautyandschool.ru", "Заявка с сайта", "Имя:".$userName.". Тел: ".$tel.", From: "admin@beautyandschool.ru", \r\n)) {     
+    if (mail("admin@beautyandschool.ru", "Заявка с сайта", "Имя:".$userName., "Тел:".$tel., "From: admin@beautyandschool.ru, \r\n")) {     
         echo "Сообщение успешно отправлено";
         } else {
             echo "При отправке сообщения возникли ошибки";
