@@ -72,6 +72,33 @@ ul {
     --font-size-base: 20px;
   }
 
+  h1 {
+    width: auto;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+h2 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 40px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+}
+
   
 
 /************* ХЕДЕР *************/
@@ -186,8 +213,9 @@ header {
     margin: 150px 0;
 }
 
-.courses__item h2 {
-    margin-bottom: 50px;
+.courses__item {
+    display: grid;
+    gap: 50px;
 }
 
 .courses__item--coloumns {
@@ -269,6 +297,12 @@ header {
 }
 
 .cours__mainbanner--description h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    margin-top: 50px;
     color: #FB37FF;
 }
 
@@ -277,11 +311,7 @@ header {
 }
 
 .cours__mainbanner--description p {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: var(--font-size-base);
     color: #FFFFFF;
     margin-top: 100px;
 }
@@ -329,11 +359,6 @@ header {
 .benefit__block--item p {
     margin-left: 37px;
     width: auto;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    color: #000000;
 
 }
 
@@ -368,11 +393,7 @@ header {
 }
 
 .teacher__item--left p {
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    color: #FFFFFF;
+    color: var(--color-white);
     margin-top: 75px;
 }
 
@@ -410,9 +431,7 @@ header {
 }
 
 .timetable__block--right li {
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 20px;
+    font-size: var(--font-size-base);
     line-height: 24px;
     color: #000000;
 }
@@ -473,6 +492,10 @@ header {
     color: #FFFFFF;
 }
 
+.form__input placeholder {
+    color: #FFFFFF;
+}
+
 
 
 .button-border--pink {
@@ -511,6 +534,7 @@ header {
     font-size: 16px;
     line-height: 19px;
     width: auto;
+    color: var(--color-white);
 }
 
 
