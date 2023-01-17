@@ -64,7 +64,7 @@
         display: block;
     }
 
-/*--- ПРАЙСЫ начало ---*/
+/*---- ПРАЙСЫ начало ----*/
     .price-block {
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 20px;
@@ -81,7 +81,7 @@
 }
 
 @media screen and (max-width: 800px) {
-/*--- ПРАЙСЫ начало ---*/
+/*---- ПРАЙСЫ начало ----*/
     .header-top__phone {
         display: none;
     }
@@ -109,7 +109,6 @@
 /*--- ПРАЙСЫ конец ---*/
 }
 
-
 @media screen and (max-width: 640px) {
     /* Хедер */
     .header__toggle.is-active + .mobile-menu {
@@ -118,7 +117,7 @@
 }
 
 @media screen and (max-width: 600px) {
-/*--- ПРАЙСЫ начало ---*/
+/*---- ПРАЙСЫ начало ----*/
 .price h1 {
     font-weight: 700;
     font-size: 32px;
