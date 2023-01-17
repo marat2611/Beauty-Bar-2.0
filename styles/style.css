@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Прибиваем футер*/
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+    font-family: 'Inter';
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+main {
+    flex: 1 0 auto;
+    background-color: #F5F5F5;
+}
+
+footer {
+    flex: 0 0 auto;
+    height: 266px;
+    background-color: var(--color-black);
+}
+/* Закончили прибивать*/
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-sb {
+    justify-content: space-between;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+:root {
+    --color-black: #252525;
+    --color-background: #F5F5F5;
+    --color-purple: #FB37FF;
+    --color-yellow: #FFE3B3;
+    --color-white: #FFFFFF;
+
+    --font-size-base: 20px;
+  }
+
+/************* ХЕДЕР *************/
+header {
+    height: 200px;
+    background-color: var(--color-black);
+}
+
+.header-top {
+    height: 100px;
+    align-items: center;
+}
+
+.header-top__address a {
+    text-decoration: none;
+    color: var(--color-white); 
+    font-size: var(--font-size-base);
+}
+
+.header-top__contacts {
+    align-items: center;
+    max-width: 517px;
+}
+
+.header-top__phone {
+    color: var(--color-white); 
+    font-size: var(--font-size-base);
+}
+
+.header-top__social-network {
+    margin-left: 62px;
+}
+
+.footer__contacts {
+    flex-direction: column;
+}
+
+.social-network-l {
+    margin-left: 45px;
+}
+
+.footer__phone {
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+}
+
+.footer__social-network {
+    margin-bottom: 65px;
+}
+
+
+/*********** Кнопка записи ***********/
+.header-bottom {
+    align-items: center;
+}
+
+.button-enroll {
+    width: 240px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FB37FF;
+    box-shadow: 0px 0px 10px #fb37ff;
+}
+
+.button-enroll:hover {
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px white;
+}
+
+.button-enroll:hover a {
+    color: white;
+}
+
+.button-enroll a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    color: #FB37FF;
+}
+
+/*********** Меню ***********/
+.header-bottom ul {
+    width: 465px;
+    list-style: none;
+ }
+
+.header-bottom ul a {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+
+/************* ФУТЕР *************/
+.footer {
+    align-items: center;
+    height: 266px;
+}
+
+.footer-list {
+    list-style: none;
+    height: 156px;
+    flex-direction: column;
+}
+
+.footer-list a {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+/*******Форма записи*********/
+
+.record-form {
+    width: 786px;
+    height: 731px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 100px;
+    z-index: 100;
+    display: none;
+}
+
+#gray {  /*Затемнение при клике на кнопку Записаться*/
+    background-color: rgb(69, 69, 69);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    opacity: 0.7;
+    display: none;
+}
+
+.record-form__container {
+    height: 447px;
+    margin-top: 143px;
+    margin-left: 40px;
+    position: relative;
+    bottom: 60px;
+}
+
+.record-form .legend {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    position: relative;
+    right: 30px;
+}
+
+
+.record-form p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.record-form p.button-enroll__information-button-click {
+    width: 410px;
+    color: #FB37FF;
+    display: none;
+}
+
+.record-form .legend__call-back {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.record-form input {
+    height: 60px;
+    width: 660px;
+    margin-bottom: 50px;
+    outline: 0;
+    outline-offset: 0;
+    color: #FFFFFF;
+    padding-left: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    background-color: #252525;
+    border: 1px solid #FB37FF;
+}
+
+.record-form input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF; 
+    opacity: 0.75;
+}
+
+.record-form input::required {
+    border: 1px solid #FFFFFF;
+}
+
+.record-form input:focus {
+    border: 1px solid #FFFFFF;
+}
+
+
+.record-form input:valid {
+    border: 1px solid white;
+}
+
+.record-form input:invalid {
+    border: 1px solid #f32e7c;
+}
+
+.record-form__button-enroll .record-form__button {
+    margin-right: 48px;
+    align-items: center;
+    width: 240px;
+    color: #FB37FF;
+    padding-right: 28px;
+}
+
+
+
+.record-form__button-enroll .record-form__button:valid {
+    border: 1px solid #FB37FF;
+}
+
+.record-form__button-enroll:hover .record-form__button {
+    border: 1px solid white;
+    color: white;
+}
+
+.button-enroll__information {
+    width: 410px;
+    position: relative;
+    bottom: 22px;
+}
+
+.record-form__cross {
+    position: relative;
+    top: -40px;
+    left: 671px;
+}
+
+.choose-service {
+    width: 705px;
+    margin-bottom: 50px;
+}
+
+.choose-service select {
+    background-color: var(--color-black);
+    border: 1px solid white;
+    padding-left: 22px;
+    height: 60px;
+    outline: 0;
+    outline-offset: 0;
+    color: var(--color-white);
+}
+
+/************* Бургер ************/
+
+/* .header-menu {
+    display: none;
+} */
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after,
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after {
+    background-color: #ffffff; 
+}
+
+.header__toggle {
+    display: none;
+}
+
+.social-network {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+/*--- ПРАЙСЫ начало ---*/
+
+.price {
+    margin-top: 50px;
+    padding-bottom: 150px;
+    font-family: 'Raleway';
+    font-size: 32px;
+}
+
+.price h1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.price-block {
+    max-width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    row-gap: 100px;
+}
+
+.price-item {
+    max-width: 367px;
+    max-height: 520px;
+}
+
+.price-item h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.price-item p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.price-block--img-prop {
+    width: 100%;
+    height: 366px;
+    object-fit: cover;
+}
+
+.title-textprop {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+/*--- ПРАЙСЫ конец ---*/
