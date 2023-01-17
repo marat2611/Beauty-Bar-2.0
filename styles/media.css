@@ -233,6 +233,12 @@
 
 }
 
+@media screen and (max-width: 840px) {
+    .education {
+        gap: 50px;
+    }
+}
+
 
 @media screen and (max-width: 800px) {
 
@@ -272,9 +278,27 @@
         grid-gap: 30px;
         margin-bottom: 50px;
     }
+
+    /******** Мы можем научить вас всему ********/
+    .education {
+        gap: 10px;
+    }
 }
 
+@media screen and (max-width: 765px) {
+/******** Услуги и цены ********/
+    .services img {
+        width: 330px;
+        height: 305px;
+    }
+}
 
+@media screen and (max-width: 740px) {
+/******** Мы можем научить вас всему ********/
+    .education {
+        gap: 0;
+    }
+}
 
 @media screen and (max-width: 710px) {
 
@@ -326,9 +350,48 @@
     .form__button {
         align-items: flex-start;
     }
+
+    /******** Мы можем научить вас всему ********/
+        .education-text {
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+
+        .education img {
+        transform: scale(0.8,0.8);
+        position: relative;
+        bottom: 0;
+        }
+
+        .courses-main__content {
+            height: 410px;
+        }
+
+        .education .button-enroll {
+            margin-top: 20px;
+            width: 180px;
+        }
+        
+        .education-text p {
+            font-size: 18px;
+        }
 }
 
+@media screen and (max-width: 700px) {
+/******** Услуги и цены ********/
+    .services img {
+        width: 290px;
+        height: 280px;
+    }
 
+    .services h3 {
+        font-size: 24px;
+    }   
+    
+    .services a {
+        font-size: 24px;
+    }
+}
 
 @media screen and (max-width: 670px) {
 
@@ -336,6 +399,37 @@
     /* Главный баннер */
     .cours__mainbanner--image {
         left: 0;
+    }
+
+ /* Главная - мы можем научить вас всему */
+    .courses-main__content {
+        height: auto;
+    }
+
+    .education {
+        flex-direction: column;
+        flex-direction: column-reverse;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+    }
+
+    .education-text {
+        z-index: 10;
+    }
+
+    .education .button-enroll {
+        width: 100%;
+        margin-top: 320px;
+        margin-bottom: 50px;
+    }
+
+    .education img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 65px;
+        z-index: 9;
     }
 }
 
@@ -353,7 +447,7 @@
     }
 
 
-/************* Страница всех курсов *************/
+  /************* Страница всех курсов *************/
     .courses__item--coloumns {
         display: flex;
         flex-direction: column;
@@ -369,7 +463,7 @@
     }
 
 
-/************* Страница Курс Ламинирование *************/
+  /************* Страница Курс Ламинирование *************/
     /* Преподаватель */
     .teacher__item--right {
         width: 100%;
@@ -397,7 +491,7 @@
 
 
 
-/************* Футер *************/  
+  /************* Футер *************/  
     footer {
         height: auto;
     }
@@ -435,8 +529,100 @@
     .footer-contacts__social-network a {
         margin: 0;
     }
+
+    /******** Отзывы ********/
+
+    .reviews-text h2 {
+        margin-bottom: 75px;
+    }
+
+    .reviews-content {
+        flex-direction: column;
+    }
+
+    .reviews-text {
+        width: 100%;
+    }
+
+    .reviews-text p {
+        width: 75%;
+    }
+
+    .reviews-widget {
+        width: 100%;
+        height: 700px;
+    }
+
+    /******** Карта ********/
+
+    .contacts {
+        flex-direction: column;
+    }
+
+    #contacts-widget {
+        margin-bottom: 100px;
+    }
+
+    .contacts-text {
+        width: 100%;
+    }
 }
 
+@media screen and (max-width: 620px) {
+    .services img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .services {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main__masters {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .our-team__masters {
+        justify-content: center;
+    }
+
+    .our-team__masters img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .education img {
+        width: 90%;
+        bottom: 75px;
+    }
+
+    .education .button-enroll {
+        margin-top: 300px;
+        background-color: #252525;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .education .button-enroll {
+        margin-top: 220px;
+        margin-bottom: 20px;
+    }
+
+    .education img {
+        bottom: 45px;
+    }
+
+    .logo__header img {
+        width: 90%;
+        height: 90%;
+    }
+}
 
 
 @media screen and (max-width: 420px) {
@@ -642,4 +828,19 @@
     }
 }
 
+@media screen and (max-width: 350px) {
+    .logo__header img {
+        width: 80%;
+        height: 80%;
+    }
+}
 
+
+
+@media screen and (max-width: 320px) {
+    .education img {
+        width: 100%;
+        height: 55%;
+        bottom: 45px;
+    }
+}
