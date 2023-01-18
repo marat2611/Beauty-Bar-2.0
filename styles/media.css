@@ -231,6 +231,21 @@
         width: auto;
     }
 
+    /*--- ПРАЙСЫ начало ---*/
+    .price-block {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 20px;
+        row-gap: 100px;
+        margin-top: 0;
+    }
+
+    .price-block--img-prop {
+        max-width: 100%;
+        max-height: 340px;
+    }
+
+/*--- ПРАЙСЫ конец ---*/
+
 }
 
 @media screen and (max-width: 840px) {
@@ -283,6 +298,33 @@
     .education {
         gap: 10px;
     }
+
+    /*--- ПРАЙСЫ начало ---*/
+    .header-top__phone {
+        display: none;
+    }
+
+    .price h1 {
+        margin-top: 50px;
+        
+    }
+
+    .price-block {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    .price-item {
+        max-width: 100%;
+        max-height: 500px;
+    }
+
+    .price-item p {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+/*--- ПРАЙСЫ конец ---*/
 }
 
 @media screen and (max-width: 765px) {
@@ -595,6 +637,29 @@
         height: 100%;
     }
 }
+
+@media screen and (max-width: 600px) {
+    /*--- ПРАЙСЫ начало ---*/
+    .price h1 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+    }
+    
+    .price-block {
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 0;
+        row-gap: 50px;
+        margin-top: 0;
+    }
+    
+    .price-item {
+        max-width: 100%;
+        max-height: 500px;
+    }
+    
+    /*--- ПРАЙСЫ конец ---*/
+    }
 
 @media screen and (max-width: 450px) {
     .education img {
