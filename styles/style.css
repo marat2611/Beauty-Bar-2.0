@@ -749,6 +749,21 @@ header {
 
 /************* ГЛАВНАЯ *************/
 
+#polosa::after {
+    content: "";
+    clear: both;
+}
+
+#slider {
+    width: 100%;
+    height: 660px;
+}
+
+#polosa {
+    width: auto;
+    position: relative;
+}
+
 .banners {
     height: 660px;
     background-color: var(--color-black);
@@ -827,7 +842,7 @@ span {
 
 .second-banner__img img{
     width: auto;
-    height: auto;
+    height: 660px;
 }
 
 .second-banner__content {
@@ -843,11 +858,12 @@ span {
     color: var(--color-yellow);
     margin-left: 90px;
     margin-top: 50px;
+    width: 1000px;
 }
 
 .second-banner__button {
     margin-left: 90px;
-    margin-right: 10px;
+    margin-right: 90px;
     margin-top: 330px;
     width: auto;
     height: 50px;
@@ -994,6 +1010,7 @@ span {
 .our-work {
     margin-bottom: 150px;
     overflow: hidden;
+    position: relative;
 }
 
 .our-work h2 {
@@ -1012,7 +1029,7 @@ span {
 
 .arrows {
     position: absolute;
-    top: 112px;
+    top: 250px;
 }
 
 .arrow_right {

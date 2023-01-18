@@ -12,7 +12,7 @@
 </head>
 <body>
     <div id="gray" onclick="show('none')"><a href="#!" ></a></div>
-    <!------------- ХЕДЕР -------------->
+    <!------------- ХЕДЕР --------------->
     <header class="header">
         <div class="header-top container d-flex flex-sb">
             <div class="header-top__address">
@@ -94,34 +94,37 @@
     <div class="wrapper">
 
         <main>
-            <section class="banners">
-                <div class="banners-content container d-flex">
-                    <div class="first-banner d-flex">
-                        <div>
-                            <div class="first-banner__benefits-left">
-                                <div class="first-banner__benefits-top">
-                                    <p class="first-banner__benefits first-banner__benefits--1">Самый удобный</p>
-                                    <p class="first-banner__benefits first-banner__benefits--2">салон красоты</p>
-                                </div>
-                                <div class="first-banner__text">
-                                    <p>Время в нашем салоне летит незаметно...</p>
-                                    <p>В мягких и комфортных креслах <br> для наращивания ресниц ♥</p>
+            <section class="banners" id="slider">
+                <div class="banners-content container">
+                    <div class=" d-flex" id="polosa">
+                        <div class="first-banner d-flex">
+                            <div>
+                                <div class="first-banner__benefits-left">
+                                    <div class="first-banner__benefits-top">
+                                        <p class="first-banner__benefits first-banner__benefits--1">Самый удобный</p>
+                                        <p class="first-banner__benefits first-banner__benefits--2">салон красоты</p>
+                                    </div>
+                                    <div class="first-banner__text">
+                                        <p>Время в нашем салоне летит незаметно...</p>
+                                        <p>В мягких и комфортных креслах <br> для наращивания ресниц ♥</p>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="first-banner__img"><img src="images/armchair.png" alt=""></div>
                         </div>
-                        <div class="first-banner__img"><img src="images/armchair.png" alt=""></div>
-                    </div>
-                    <div class="second-banner d-flex">
-                        <div class="second-banner__img">
-                            <img src="images/banner3_img.jpg" alt="">
+                        <div class="second-banner d-flex">
+                            <div class="second-banner__img">
+                                <img src="images/banner3_img.jpg" alt="">
+                            </div>
+                            <div class="second-banner__content">
+                                <p class="second-banner__content-media"> <span>Курс:</span> Ламинирование и <br> ботокс натуральных ресниц</p>
+                                <div class="second-banner__button d-flex"><a href="cours_lamination.html">Получи новую классную профессию за 2 дня</a> </div>
+                            </div>
+                            
                         </div>
-                        <div class="second-banner__content">
-                            <p class="second-banner__content-media"> <span>Курс:</span> Ламинирование и <br> ботокс натуральных ресниц</p>
-                            <div class="second-banner__button d-flex"><a href="cours_lamination.html">Получи новую классную профессию за 2 дня</a> </div>
-                        </div>
-                        
                     </div>
                 </div>
+                
             </section>
 
             <section class="services-and-prices">
@@ -217,22 +220,21 @@
                 </div>
             </section>
 
-            <section class="our-work container">
+            <section class="our-work container js-slider-container">
                 <h2>Работы наших мастеров</h2>
-                <div class="slider d-flex">
-                    <div><img src="images/works_1.jpg" alt=""></div>
-                    <div><img src="images/works_2.jpg" alt=""></div>
-                    <div><img src="images/works_3.jpg" alt=""></div>
-                    <div><img src="images/works_4.jpg" alt=""></div>
-                    <div><img src="images/works_5.jpg" alt=""></div>
-                    <div><img src="images/works_6.jpg" alt=""></div>
-                    <div><img src="images/works_7.jpg" alt=""></div>
-                    <div><img src="images/works_8.jpg" alt=""></div>
-                    <div><img src="images/works_9.jpg" alt=""></div>
-                    <a href="#!" class="arrows arrow_left"><img src="images/arrow_left_2.png" alt=""></a>
-                    <a href="#!" class="arrows arrow_right"><img src="images/arrow_right_2.png" alt=""></a>
+                <div class="slider d-flex js-slider-track">
+                    <div class="js-slider__item"><img src="images/works_1.jpg" alt=""></div>
+                    <div class="js-slider__item"><img src="images/works_2.jpg" alt=""></div>
+                    <div class="js-slider__item"><img src="images/works_3.jpg" alt=""></div>
+                    <div class="js-slider__item"><img src="images/works_4.jpg" alt=""></div>
+                    <div class="js-slider__item"><img src="images/works_5.jpg" alt=""></div>
+                    <div class="js-slider__item"><img src="images/works_6.jpg" alt=""></div>
+                    <div class="js-slider__item"><img src="images/works_7.jpg" alt=""></div>
+                    <div class="js-slider__item"><img src="images/works_8.jpg" alt=""></div>
+                    <div class="js-slider__item"><img src="images/works_9.jpg" alt=""></div>
                 </div>
-                
+                <a href="#!" class="arrows arrow_left js-btn--prev"><img src="images/arrow_left_2.png" alt=""></a>
+                <a href="#!" class="arrows arrow_right js-btn--next"><img src="images/arrow_right_2.png" alt=""></a>
             </section>
 
             <section class="location container" id="contacts-widget">
@@ -283,5 +285,7 @@
         <!------------ ФУТЕР - конец ------------->
     </div>
     <script src="JS/forma.js"></script>
+    <script src="JS/slider.js"></script>
+    <script src="JS/autoslider.js"></script>
 </body>
 </html>
