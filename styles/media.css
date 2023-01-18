@@ -246,6 +246,12 @@
 
 /*--- ПРАЙСЫ конец ---*/
 
+/*--- СТРАНИЦА 404 начало ---*/
+    .footer--404 {
+        display: block;
+    }
+/*--- СТРАНИЦА 404 конец ---*/
+
 }
 
 @media screen and (max-width: 840px) {
@@ -325,6 +331,7 @@
     }
 
 /*--- ПРАЙСЫ конец ---*/
+
 }
 
 @media screen and (max-width: 765px) {
@@ -333,6 +340,12 @@
         width: 330px;
         height: 305px;
     }
+
+/*--- СТРАНИЦА 404 начало ---*/
+    .footer--404 {
+        display: block;
+    }
+/*--- СТРАНИЦА 404 конец ---*/
 }
 
 @media screen and (max-width: 740px) {
@@ -433,6 +446,14 @@
     .services a {
         font-size: 24px;
     }
+
+/*--- СТРАНИЦА 404 начало ---*/
+    .error--prop img {
+        transform: scale(0.7, 0.7);
+        justify-content: stretch;
+        padding: 0; 
+    }
+/*--- СТРАНИЦА 404 конец ---*/
 }
 
 @media screen and (max-width: 670px) {

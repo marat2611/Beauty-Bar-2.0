@@ -1115,3 +1115,46 @@ iframe {
 }
 
 /*--- ПРАЙСЫ конец ---*/
+
+/*--- СТРАНИЦА 404 ---*/
+.error {
+    height: 838px;
+    background-color: #252525;
+}
+
+.error h1 {
+    text-align: right;
+}
+
+.error__text--prop {
+    color: #fff;
+}
+
+.error__description p {
+    color: #fff;
+}
+
+.error__description a {
+    color: #fb37ff;
+}
+
+.error--prop {
+    background-color: #252525;
+    max-width: 1140px;
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error--prop img {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 40%;
+}
+
+.footer--404 {
+    margin-top: 0;
+    display: none;
+}
