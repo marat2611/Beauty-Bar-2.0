@@ -254,9 +254,36 @@
 
 }
 
+@media screen and (max-width: 970px) {
+    .first-banner__left {
+        width: 70%;
+    }
+
+    .first-banner__benefits {
+        font-size: 40px;
+        width: auto;
+    }
+
+    .first-banner__img {
+        transform: scale(0.75,0.75);
+        left: 150px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .first-banner__img {
+        left: 180px;
+    }
+}
+
 @media screen and (max-width: 840px) {
     .education {
         gap: 50px;
+    }
+
+    .first-banner__img {
+        transform: scale(0.65,0.65);
+        left: 200px;
     }
 }
 
@@ -332,6 +359,9 @@
 
 /*--- ПРАЙСЫ конец ---*/
 
+    .first-banner__img {
+        left: 230px;
+    }
 }
 
 @media screen and (max-width: 765px) {
@@ -346,6 +376,10 @@
         display: block;
     }
 /*--- СТРАНИЦА 404 конец ---*/
+
+.first-banner__img {
+    left: 255px;
+}
 }
 
 @media screen and (max-width: 740px) {
@@ -429,6 +463,35 @@
         
         .education-text p {
             font-size: 18px;
+        }
+
+        .first-banner {
+            flex-direction: column-reverse;
+        }
+
+        .first-banner__img {
+            left: -85px;
+            bottom: 250px;
+            transform: scale(0.70,0.70);
+            height: 100%;
+        }
+
+
+        .first-banner__benefits-left {
+            position: relative;
+            bottom: 520px;
+        }
+
+        .first-banner__benefits-top {
+            margin-bottom: 0;
+        }
+
+        .first-banner__benefits {
+            line-height: 65px;            
+        }
+
+        .first-banner__text {
+            margin-left: auto;
         }
 }
 
@@ -657,6 +720,10 @@
         width: 100%;
         height: 100%;
     }
+
+    .first-banner__img {
+        left: -120px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -680,7 +747,32 @@
     }
     
     /*--- ПРАЙСЫ конец ---*/
+
+    
     }
+
+@media screen and (max-width: 520px) {
+    .first-banner__img {
+        transform: scale(0.6,0.6);
+    }
+
+    .first-banner__benefits-top, .first-banner__text {
+        margin-left: 20px;
+    }
+
+    .first-banner__benefits {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .first-banner__text {
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 30px;
+    }
+
+    
+}
 
 @media screen and (max-width: 450px) {
     .education img {
@@ -691,6 +783,25 @@
     .education .button-enroll {
         margin-top: 300px;
         background-color: #252525;
+    }
+
+    .first-banner__img {
+        transform: scale(0.5,0.5);
+    }
+
+    .first-banner__benefits-top {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .first-banner__text {
+        margin-top: 60px;
+    }
+
+    .first-banner__text p {
+        font-size: 16px;
+        line-height: 19px;
+        margin-left: 0;
     }
 }
 
@@ -707,6 +818,10 @@
     .logo__header img {
         width: 90%;
         height: 90%;
+    }
+
+    .first-banner__benefits-top {
+        width: 250px;
     }
 }
 
@@ -886,10 +1001,17 @@
 
     }
 
+    .first-banner__img {
+        transform: scale(0.5,0.5);
+    }
 
 }
 
-
+@media screen and (max-width: 390px) {
+    .first-banner__text p {
+        width: 270px;
+    }
+}
 
 
 @media screen and (max-width: 380px) {
@@ -912,6 +1034,10 @@
     .form__item--left {
         display: block;
     }
+
+    .first-banner__img {
+        transform: scale(0.45,0.45);
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -928,5 +1054,9 @@
         width: 100%;
         height: 55%;
         bottom: 45px;
+    }
+
+    .first-banner__img {
+        transform: scale(0.41,0.41);
     }
 }
