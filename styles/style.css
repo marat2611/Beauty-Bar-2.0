@@ -988,11 +988,11 @@ span {
 
 .reviews {
     margin-bottom: 150px;
-    height: 755px;
+    height: auto;
 }
 
 .reviews-content {
-    height: 755px;
+    height: auto;
 }
 
 .reviews-text h2 {
@@ -1013,7 +1013,7 @@ span {
 
 .reviews-widget {
     width: 50%;
-    height: 100%;
+    height: auto;
 }
 
 .our-work {
