@@ -433,13 +433,13 @@ header {
 
 .banners-content {
     overflow: hidden;
-    height: 660px;
+    
 }
 
 .first-banner {
     flex-direction: row-reverse;
     width: 100%;
-    height: 660px;
+    
 }
 
 .first-banner__left {
@@ -661,7 +661,7 @@ span {
 }
 
 .reviews-content {
-    height: 755px;
+    height: auto;
 }
 
 .reviews-text h2 {
@@ -682,7 +682,7 @@ span {
 
 .reviews-widget {
     width: 50%;
-    height: 100%;
+    height: auto;
 }
 
 .our-work {
