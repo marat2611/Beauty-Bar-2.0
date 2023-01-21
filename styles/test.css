@@ -427,7 +427,7 @@ header {
 }
 
 .banners {
-    height: 660px;
+    height: auto;
     background-color: var(--color-black);
 }
 
@@ -547,7 +547,7 @@ span {
 }
 
 .services-and-prices {
-    height: 1152px;
+    height: auto;
     display: flex;
     justify-content: center;
 }
@@ -594,7 +594,7 @@ span {
 
 .courses-main {
     margin-bottom: 150px;
-    height: 605px;
+    height: auto;
 }
 
 .courses-main h2 {
@@ -632,7 +632,7 @@ span {
 
 .our-team {
     margin-bottom: 150px;
-    height: 505px;
+    height: auto;
 }
 
 .our-team h2 {
@@ -657,7 +657,7 @@ span {
 
 .reviews {
     margin-bottom: 150px;
-    height: 755px;
+    height: auto;
 }
 
 .reviews-content {
@@ -689,7 +689,7 @@ span {
     margin-bottom: 150px;
     overflow: hidden;
     position: relative;
-    height: 405px;
+    height: auto;
 }
 
 .our-work h2 {
@@ -735,7 +735,7 @@ iframe {
 
 
 .location {
-    height: 613px;
+    height: auto;
 }
 
 .location h2 {
