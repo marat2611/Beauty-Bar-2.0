@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-/**Прибиваем футер**/
+/***Прибиваем футер***/
 * {
     margin: 0;
     padding: 0;
@@ -27,6 +27,7 @@ body {
 main {
     flex: 1 0 auto;
     background-color: #F5F5F5;
+    height: auto;
 }
 
 footer {
@@ -591,6 +592,10 @@ header {
     display: none;
 }
 
+#record-form-id {
+    height: 716px;
+}
+
 .record-form__container {
     height: 447px;
     margin-top: 143px;
@@ -884,6 +889,7 @@ span {
     font-family: 'Raleway';
     font-size: var(--font-size-h2);
     line-height: 47px;
+    height: auto;
 }
 .service {
     flex-direction: column;
@@ -919,6 +925,7 @@ span {
 
 .courses-main {
     margin-bottom: 150px;
+    height: auto;
 }
 
 .courses-main h2 {
@@ -956,6 +963,7 @@ span {
 
 .our-team {
     margin-bottom: 150px;
+    height: auto;
 }
 
 .our-team h2 {
@@ -1012,6 +1020,7 @@ span {
     margin-bottom: 150px;
     overflow: hidden;
     position: relative;
+    height: auto;
 }
 
 .our-work h2 {
@@ -1058,6 +1067,7 @@ iframe {
 .location h2 {
     margin-bottom: 100px;
     font-size: var(--font-size-h2);
+    height: auto;
 }
 
 .contacts-text_1 {
