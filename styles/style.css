@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-/***Прибиваем футер***/
+/****Прибиваем футер****/
 * {
     margin: 0;
     padding: 0;
@@ -846,12 +846,17 @@ span {
 }
 
 .second-banner__img img{
-    width: auto;
+    width: 1140px;
     height: 660px;
+}
+
+.img-mobile-2 {
+    display: none;
 }
 
 .second-banner__content {
     z-index: 5;
+    width: 1140px;
 }
 
 .second-banner__content p {
