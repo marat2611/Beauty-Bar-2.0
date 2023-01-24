@@ -469,11 +469,12 @@
 
     .second-banner__content p {
         font-size: 50px;
+        
     }
 }
 
 @media screen and (max-width: 765px) {
-/******** Услуги и цены ********/
+/******** Услуги и цены *********/
     .services img {
         width: 330px;
         height: 305px;
@@ -1368,6 +1369,15 @@
 @media screen and (max-width: 390px) {
     .first-banner__text p {
         width: 270px;
+    }
+
+    .second-banner__content p {
+        line-height: 60px;
+    }
+
+    .js-slider__item {
+        width: auto;
+        height: auto;
     }
 }
 
