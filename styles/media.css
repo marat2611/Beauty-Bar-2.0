@@ -1063,6 +1063,20 @@
     .img-mobile-1 {
         left: 350px;
     }
+
+    .our-work .slider {
+        gap: 10px;
+    }
+
+    .js-slider__item {
+        width: auto;
+        height: auto;
+    }
+
+    .js-slider__item img {
+        width: auto;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 465px) {
