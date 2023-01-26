@@ -1040,6 +1040,17 @@ span {
 
 .slider {
     position: relative;
+    height: auto;
+}
+
+.js-slider__item {
+    height: auto;
+    width: auto;
+}
+
+.js-slider__item img {
+    height: auto;
+    width: 100%;
 }
 
 .arrows {
