@@ -1026,6 +1026,7 @@ span {
     overflow: hidden;
     position: relative;
     height: auto;
+    width: auto;
 }
 
 .our-work h2 {
@@ -1041,6 +1042,7 @@ span {
 .slider {
     position: relative;
     height: auto;
+    width: auto;
 }
 
 .js-slider__item {
