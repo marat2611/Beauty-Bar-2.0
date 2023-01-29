@@ -374,7 +374,136 @@
         font-size: 50px;
     }
 }
+/********************блок о нас************************/
+@media screen and (max-width: 810px) { 
+    .about-us {
+        height: 1600px;
+        justify-content: center;
+    }
+    
+    .about-us__item {
+        flex-wrap: wrap;
+        height: 1600px;
+    }
+    .about-us__text {
+        height: 600px;
+    }
+    
+    .master-yana {
+        /*order: 0;*/
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .master-yana-img {
+        height: 900px;
+        justify-content: center;
+    }
+}
 
+@media screen and (max-width: 610px) { 
+    .about-us {
+        height: 1700px;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    
+    .about-us__item {
+        flex-wrap: wrap;
+        height: 1700px;
+    }
+    .about-us__text {
+        height: 600px;
+    }
+    
+    .master-yana {
+        /*order: 0;*/
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .master-yana-img {
+        height: 700px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 460px) { 
+    .about-us {
+        height: 1600px;
+        justify-content: center;
+    }
+    
+    .about-us__item {
+        flex-wrap: wrap;
+        height: 1600px;
+    }
+    .about-us__text {
+        height: 600px;
+    }
+    
+    .master-yana {
+        /*order: 0;*/
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .master-yana-img {
+        height: 600px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 420px) { 
+    /*.main-caption {
+        font-size: 35px;
+    }
+    .caption {
+        font-size: 30px;
+    }
+
+    .text {
+        font-size: 18px;
+    }*/
+
+    .about-us {
+        height: 1700px;
+        justify-content: center;
+    }
+    
+    .about-us__item {
+        flex-wrap: wrap;
+        height: 1700px;
+    }
+    .about-us__text {
+        height: 600px;
+    }
+    
+    .master-yana {
+        /*order: 0;*/
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .master-yana-img {
+        height: 600px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 450px) { 
+    .main-caption {
+        font-size: 60px;
+    }
+    .caption {
+        font-size: 35px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+}
+/**********************блок о нас конец*****************/
 
 @media screen and (max-width: 800px) {
 
