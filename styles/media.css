@@ -343,6 +343,15 @@
     }
 }
 
+@media screen and (max-width: 850px) {
+    .about-us__item {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 100px;
+    height: auto;
+    }
+}
+
 @media screen and (max-width: 840px) {
     .education {
         gap: 50px;
@@ -375,16 +384,16 @@
 /********************блок о нас************************/
 @media screen and (max-width: 810px) { 
     .about-us {
-        height: 1600px;
+        height: auto;
         justify-content: center;
     }
     
     .about-us__item {
         flex-wrap: wrap;
-        height: 1600px;
+        height: auto;
     }
     .about-us__text {
-        height: 600px;
+        height: auto;
     }
     
     .master-yana {
@@ -394,21 +403,23 @@
     }
     
     .master-yana-img {
-        height: 900px;
+        height: auto;
         justify-content: center;
+        width: 100%;
     }
 }
 
+
 @media screen and (max-width: 610px) { 
     .about-us {
-        height: 1700px;
+        height: auto;
         justify-content: center;
         margin-bottom: 50px;
     }
     
     .about-us__item {
         flex-wrap: wrap;
-        height: 1700px;
+        height: auto;
     }
     .about-us__text {
         height: 600px;
@@ -428,13 +439,13 @@
 
 @media screen and (max-width: 460px) { 
     .about-us {
-        height: 1600px;
+        height: auto;
         justify-content: center;
     }
     
     .about-us__item {
         flex-wrap: wrap;
-        height: 1600px;
+        height: auto;
     }
     .about-us__text {
         height: 600px;
@@ -465,13 +476,13 @@
     }*/
 
     .about-us {
-        height: 1700px;
+        height: auto;
         justify-content: center;
     }
     
     .about-us__item {
         flex-wrap: wrap;
-        height: 1700px;
+        height: auto;
     }
     .about-us__text {
         height: 600px;
@@ -640,6 +651,10 @@
         font-size: 45px;
     }
 
+    /* Error */
+    .error h1 {
+        font-size: 48px;
+    }
 }
 
 
@@ -782,6 +797,10 @@
         transform: scale(0.7, 0.7);
         justify-content: stretch;
         padding: 0; 
+    }
+
+    .error__description p {
+        font-size: 24px;
     }
 /*--- СТРАНИЦА 404 конец ---*/
 
@@ -1642,5 +1661,10 @@
     /* Прайсы */
     .price-item h2 {
         font-size: 27px;
+    }
+
+    /* Error */
+    .error h1 {
+        font-size: 36px;
     }
 }
