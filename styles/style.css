@@ -779,6 +779,7 @@ header {
 }
 
 .first-banner {
+    height: auto;
     flex-direction: row-reverse;
     width: 100%;
 }
@@ -789,7 +790,7 @@ header {
     transform: scale(0.8,0.8);
     position: relative;
     bottom: 11%;
-    left: 12%;
+    left: 10%;
 }
 
 .first-banner__benefits {
@@ -804,8 +805,8 @@ header {
 }
 
 .first-banner__benefits-top {
-    margin-top: 20px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 200px;
 }
 
 .first-banner__benefits--1 {
@@ -823,7 +824,7 @@ header {
     line-height: 24px;
     color: var(--color-white);
     position: relative;
-    width: 350px;
+    z-index: 1;
 }
 
 .first-banner__text p {
@@ -866,15 +867,12 @@ span {
     font-size: 64px;
     line-height: 75px;
     color: var(--color-yellow);
-    margin-left: 90px;
     margin-top: 50px;
     width: 1000px;
 }
 
-.second-banner__button {
-    margin-left: 90px;
-    margin-right: 90px;
-    margin-top: 330px;
+.second-banner__button { 
+    margin-top: 300px;
     width: auto;
     height: 50px;
     background-color: var(--color-purple);
@@ -952,7 +950,8 @@ span {
 }
 
 .education-text {
-    margin-top: 75px;
+    display: grid;
+    align-content: center;
 }
 
 .education-text p {
