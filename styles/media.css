@@ -1027,6 +1027,12 @@
     .second-banner__content p {
         font-size: 36px;
     }
+
+    /* Прайсы */
+    .price-item h2 {
+        font-size: 29px;
+    }
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -1073,6 +1079,7 @@
         max-width: 100%;
         max-height: 500px;
     }
+
     
     /*--- ПРАЙСЫ конец ---*/
 
@@ -1630,5 +1637,10 @@
 
     .second-banner__button {
         top: -30px;
+    }
+
+    /* Прайсы */
+    .price-item h2 {
+        font-size: 27px;
     }
 }

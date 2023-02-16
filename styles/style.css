@@ -1126,17 +1126,23 @@ iframe {
     row-gap: 100px;
 }
 
+.price-block--name {
+    height: 110px;
+}
+
 .price-item {
     max-width: 367px;
     max-height: 520px;
 }
 
 .price-item h2 {
+    display: flex;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 38px;
+    align-items: center;
 }
 
 .price-item p {
@@ -1148,8 +1154,8 @@ iframe {
 }
 
 .price-block--img-prop {
-    width: 100%;
-    height: 366px;
+    width: 360px;
+    height: 360px;
     object-fit: cover;
 }
 
