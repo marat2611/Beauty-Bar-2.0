@@ -58,13 +58,13 @@
             </div>
         </div>
         <!------------ ФОРМА ЗАПИСИ ------------>
-        <form id="record-form-id" class="record-form" action="" method="post">
+        <form id="record-form-id" class="record-form" action="telegram.php" method="post">
             <div class="record-form__container d-flex flex-wrap">
                 <div class="record-form__cross" onclick="show('none')"><a href="#!"><img src="images/cross.svg" alt=""></a></div>
                 <legend class="legend">Оставьте свой номер</legend>
                 <p class="legend__call-back">Мы перезвоним и запишем вас на удобное время</p>
-                <input name="name" required class="input-name"type="text" placeholder="Имя" pattern="^[a-zA-ZА-Яа-яЁё\s]+$" title="Введите свое имя русскими или латинскими буквами">
-                <input name="phone" required class="input-phone" type="tel" placeholder="Телефон в формате 8ХХХХХХХХХХ" pattern="8[0-9]{10}" title="Введите номер телефона в формате 8ХХХХХХХХХХ">
+                <input name="user_name" required class="input-name"type="text" placeholder="Имя" pattern="^[a-zA-ZА-Яа-яЁё\s]+$" title="Введите свое имя русскими или латинскими буквами">
+                <input name="user_phone" required class="input-phone" type="tel" placeholder="Телефон в формате 8ХХХХХХХХХХ" pattern="8[0-9]{10}" title="Введите номер телефона в формате 8ХХХХХХХХХХ">
                 <!-- <div class="choose-service d-flex flex-sb">
                     <p>Я хочу записаться на:</p>
                     <select name="" id="">
