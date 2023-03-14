@@ -710,11 +710,7 @@
     }
 
     /******** Мы можем научить вас всему ********/
-        .education-text {
-            margin-top: 20px;
-            margin-right: 20px;
-        }
-
+      
         .education img {
         transform: scale(0.8,0.8);
         position: relative;
@@ -731,6 +727,7 @@
         }
         
         .education-text p {
+            margin-top: 20px;
             font-size: 18px;
         }
 
@@ -825,6 +822,11 @@
         left: 0;
     }
 
+    .cours__mainbanner--description p {
+        margin-top: 50px;
+       }
+    
+
  /* Главная - мы можем научить вас всему */
     .courses-main__content {
         height: auto;
@@ -850,8 +852,6 @@
 
     .education img {
         position: absolute;
-        left: 0;
-        right: 0;
         bottom: 65px;
         z-index: 9;
     }
@@ -902,6 +902,7 @@
 
 
   /************* Страница Курс Ламинирование *************/
+   
     /* Преподаватель */
     .teacher__item--right {
         width: 100%;
@@ -1449,6 +1450,7 @@
     }
 
     .benefit__block--item p {
+        
         font-size: 16px;
         line-height: 19px;
     }
